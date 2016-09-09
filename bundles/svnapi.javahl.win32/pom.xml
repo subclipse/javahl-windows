@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.2.0 http://maven.apache.org/xsd/maven-4.2.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+      <groupId>subclipse.javahl</groupId>
+      <artifactId>subclipse.javahl.root</artifactId>
+      <version>1.9.4.2</version>
+      <relativePath>../../</relativePath>
+  </parent>
+  <artifactId>org.tigris.subversion.clientadapter.javahl.win32</artifactId>
+  <version>1.9.4.2</version>
+  <packaging>eclipse-plugin</packaging>
+  <build>
+    <plugins>
+      <!-- tycho is not able to automatically determine os/ws/arch of this bundle -->
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <resolver>p2</resolver>
+          <environments>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86</arch>
+            </environment>
+          </environments>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

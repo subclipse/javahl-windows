@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <feature url="features/org.tigris.subversion.clientadapter.javahl.feature_1.9.4.2.jar" id="org.tigris.subversion.clientadapter.javahl.feature" version="1.9.4.2">
+       <category name="JavaHL"/>
+    </feature>
+   <category-def name="JavaHL" label="JavaHL Windows">
+      <description>
+         Windows Binaries for Apache Subversion
+      </description>
+   </category-def>
+</site>

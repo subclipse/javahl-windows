@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.2.0 http://maven.apache.org/xsd/maven-4.2.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>subclipse.javahl.root</artifactId>
+    <packaging>pom</packaging>
+    <parent>
+            <groupId>subclipse.javahl</groupId>
+            <artifactId>subclipse.javahl.configuration</artifactId>
+            <version>1.9.4.2</version>
+        <relativePath>./releng/javahl.configuration</relativePath>
+    </parent>
+
+    <modules>
+        <module>bundles</module>
+        <module>features</module>
+        <module>releng</module>
+    </modules>
+</project>
