@@ -6,7 +6,7 @@
     <parent>
             <groupId>subclipse.javahl</groupId>
             <artifactId>subclipse.javahl.configuration</artifactId>
-            <version>1.9.4.2</version>
+            <version>1.9.4-SNAPSHOT</version>
         <relativePath>./releng/javahl.configuration</relativePath>
     </parent>
 

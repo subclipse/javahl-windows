@@ -2,17 +2,12 @@
     "package": {
         "name": "javahl",
         "repo": "releases",
-        "subject": "subclipse",
-        "desc": "Subclipse Release Builds",
-        "website_url": "https://github.com/subclipse/javahl-windows",
-        "vcs_url": "https://github.com/subclipse/javahl-windows.git",
-        "licenses": ["Apache-2.0"],
-        "public_download_numbers": true,
-        "public_stats": true
+        "subject": "subclipse"
     },
 
     "version": {
-        "name": "snapshots"
+        "name": "${TRAVIS_TAG}",
+        "vcs_tag": "${TRAVIS_TAG}"
     },
 
     "files": [
@@ -28,17 +23,17 @@
         },
         {
             "includePattern": "./releng/update-site/target/repository/plugins/(.*)",
-            "uploadPattern": "/javahl/snapshots/plugins/$1",
+            "uploadPattern": "/javahl/${TRAVIS_TAG}/plugins/$1",
             "matrixParams": { "override": 1 }
         },
         {
             "includePattern": "./releng/update-site/target/repository/features/(.*)",
-            "uploadPattern": "/javahl/snapshots/features/$1",
+            "uploadPattern": "/javahl/${TRAVIS_TAG}/features/$1",
             "matrixParams": { "override": 1 }
         },
         {
             "includePattern": "./releng/update-site/target/(.*\\.zip)",
-            "uploadPattern": "/javahl/$1",
+            "uploadPattern": "/javahl/subclipse-javahl-${TRAVIS_TAG}.zip",
             "matrixParams": { "override": 1 }
         }
     ],
