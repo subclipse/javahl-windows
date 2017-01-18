@@ -4,7 +4,7 @@
   <parent>
       <groupId>subclipse.javahl</groupId>
       <artifactId>subclipse.javahl.root</artifactId>
-      <version>1.9.5-SNAPSHOT</version>
+      <version>1.9.4-SNAPSHOT</version>
       <relativePath>../../</relativePath>
   </parent>
   <artifactId>org.tigris.subversion.clientadapter.javahl.win32</artifactId>
