@@ -2,7 +2,7 @@
 <feature
       id="org.tigris.subversion.clientadapter.javahl.feature"
       label="Subversion JavaHL Windows Native DLL&apos;s"
-      version="1.9.6.qualifier"
+      version="1.9.7.qualifier"
       provider-name="Subclipse">
 
    <description>
