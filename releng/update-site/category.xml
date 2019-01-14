@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-    <feature url="features/org.tigris.subversion.clientadapter.javahl.feature_1.10.3.qualifier.jar" id="org.tigris.subversion.clientadapter.javahl.feature" version="1.10.3.qualifier">
+    <feature url="features/org.tigris.subversion.clientadapter.javahl.feature_1.10.4.qualifier.jar" id="org.tigris.subversion.clientadapter.javahl.feature" version="1.10.4.qualifier">
        <category name="Subclipse-JavaHL"/>
     </feature>
    <category-def name="Subclipse-JavaHL" label="Subclipse - JavaHL Windows Binaries">
