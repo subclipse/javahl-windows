@@ -12,7 +12,7 @@ deploy:
   - provider: bintray
     skip_cleanup: true
     file: "deploy.json"
-    on: master
+    on: 1.11.x
     user:
         secure: "ZN7VTxey8qfgk0+8Cl1s+sYmRZOXJXPhpM81xV8PVa3eRX7VEq9yYRvWl4SxW4C9YEiAZ9cyLb1mUEyGzrlrmohMTM1ZXJ8Ja6jIA/DKZbRw8fWbeHxSG+gTaGcXLJAYDYmIkZPt1DKjf+y6d0vXIRBobD8Sc02PH6ZoSzBEOWYnM6p5RX7/6Sw6OVrjknuzT3qh4K7vpsQuNoUs68wNL6YIvmMDHxjjjTebOrpowonIrEOLe7X8dZjArfHYvCbucCFSoXuucNIuJPabeZjDMJMAEpEFVbHIGZ/sd/+sgmsbzcKfy8wfbv5Gow/8Ih+QBZhsjN5XczpJtXOQ7P9KjAdScMEQa0rr67Shnmgst7lX3UBe2C0BeGr0zEXxaLRr+7FZbqmvm/wfzLq/2xTDFYrv+Woin3YLaBAj5aJ3i2yupxleo7+/wr+n/niojRaoFz8HByl/ziSbj806orFW0rgLJZdNbQ+nxLVtM2BqfMHezGgvkvU5ufIegCRnjnFmicHgzYHuANvhX0ftg27kBNZaU1SlTT5BtP5KVpIwYfwBCYM8kOrQFx4rs5UKbAjojasg1ubndduXuv6ETYbQmH3XBcIAOYwE10qRJsJZ9h6c0hfeVvDRDBDYiBknthFzBlbQThMPTU0mE1tjbQcrIN6/SIADRXY9C2Vlwh6h4G0="
     key:
