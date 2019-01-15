@@ -11,6 +11,7 @@
     </parent>
 
     <modules>
+        <module>svnapi.javahl</module>
         <module>svnapi.javahl.win32</module>
         <module>svnapi.javahl.win64</module>
     </modules>
