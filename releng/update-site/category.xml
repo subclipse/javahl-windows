@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.tigris.subversion.clientadapter.javahl.feature_1.12.0.qualifier.jar" id="org.tigris.subversion.clientadapter.javahl.feature" version="1.12.0.qualifier">
-      <category name="Subclipse-JavaHL-1.12"/>
+   <feature url="features/org.tigris.subversion.clientadapter.javahl.feature_1.13.0.qualifier.jar" id="org.tigris.subversion.clientadapter.javahl.feature" version="1.13.0.qualifier">
+      <category name="Subclipse-JavaHL-1.13"/>
    </feature>
-   <category-def name="Subclipse-JavaHL-1.12" label="Subclipse - JavaHL 1.12">
+   <category-def name="Subclipse-JavaHL-1.13" label="Subclipse - JavaHL 1.13">
       <description>
-         JavaHL for Apache Subversion 1.12
+         JavaHL for Apache Subversion 1.13
       </description>
    </category-def>
 </site>

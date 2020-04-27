@@ -7,12 +7,12 @@
     <parent>
         <groupId>subclipse.javahl</groupId>
         <artifactId>subclipse.javahl.root</artifactId>
-        <version>1.12.0-SNAPSHOT</version>
+        <version>1.13.0-SNAPSHOT</version>
     </parent>
 
     <modules>
         <module>svnapi.javahl</module>
-        <module>svnapi.javahl.win32</module>
-        <module>svnapi.javahl.win64</module>
+        <!-- <module>svnapi.javahl.win32</module>
+        <module>svnapi.javahl.win64</module> -->
     </modules>
 </project>

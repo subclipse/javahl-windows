@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.tigris.subversion.clientadapter.javahl.feature"
-      label="Subversion 1.12 JavaHL"
-      version="1.12.0.qualifier"
+      label="Subversion 1.13 JavaHL"
+      version="1.13.0.qualifier"
       provider-name="Subclipse">
 
    <description>
@@ -28,7 +28,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+<!-- 
    <plugin
          id="org.tigris.subversion.clientadapter.javahl.win32"
          os="win32"
@@ -45,6 +45,6 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         fragment="true"/>
+         fragment="true"/> -->
 
 </feature>

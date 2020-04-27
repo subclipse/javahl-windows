@@ -2,7 +2,7 @@
  <modelVersion>4.0.0</modelVersion>
  <groupId>subclipse.javahl</groupId>
  <artifactId>subclipse.javahl.configuration</artifactId>
- <version>1.12.0-SNAPSHOT</version>
+ <version>1.13.0-SNAPSHOT</version>
  <packaging>pom</packaging>
 
  <properties>
@@ -43,7 +43,7 @@
            <target>1.6</target>
        </configuration>
    </plugin>
-
+<!-- 
    <plugin>
     <groupId>org.eclipse.tycho</groupId>
     <artifactId>target-platform-configuration</artifactId>
@@ -63,7 +63,7 @@
       </environment>
      </environments>
     </configuration>
-   </plugin>
+   </plugin> -->
   </plugins>
  </build>
 </project>
