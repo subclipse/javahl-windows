@@ -3,9 +3,9 @@
    <feature url="features/org.tigris.subversion.clientadapter.javahl.feature_1.14.0.qualifier.jar" id="org.tigris.subversion.clientadapter.javahl.feature" version="1.14.0.qualifier">
       <category name="Subclipse-JavaHL-1.14"/>
    </feature>
-   <category-def name="Subclipse-JavaHL-1.14" label="Subclipse - JavaHL 1.14">
+   <category-def name="Subclipse-JavaHL-1.14" label="Subclipse - JavaHL for SVN 1.12-1.14+">
       <description>
-         JavaHL for Apache Subversion 1.14
+         JavaHL for Apache Subversion 1.12 thru 1.14 and later
       </description>
    </category-def>
 </site>
