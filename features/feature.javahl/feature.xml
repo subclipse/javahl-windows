@@ -27,7 +27,7 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="true"/>
 
    <plugin
          id="org.tigris.subversion.clientadapter.javahl.win32"
@@ -36,6 +36,7 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
+         unpack="true"
          fragment="true"/>
 
    <plugin
@@ -45,6 +46,7 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
+         unpack="true"
          fragment="true"/>
 
 </feature>
