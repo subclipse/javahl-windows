@@ -6,3 +6,4 @@ Bundle-Version: 1.9.7.qualifier
 Bundle-Vendor: Subclipse
 Fragment-Host: org.tigris.subversion.clientadapter.javahl;bundle-version="1.9.4"
 Eclipse-PlatformFilter: (& (osgi.os=win32) (osgi.arch=x86))
+Eclipse-BundleShape: dir
