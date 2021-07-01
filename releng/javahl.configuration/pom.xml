@@ -9,7 +9,7 @@
   <tycho.version>0.25.0</tycho.version>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <juno-repo.url>http://download.eclipse.org/releases/juno</juno-repo.url>
-  <svn-repo.url>https://dl.bintray.com/subclipse/snapshots/subclipse/master</svn-repo.url>
+  <svn-repo.url>https://subclipse.github.io/snapshots</svn-repo.url>
  </properties>
 
  <repositories>
